@@ -64,5 +64,5 @@ def my_function():
     print(global_var)
 my_function()
    
-#print(local_var)   thi will throw an error as we do not declare the local_var outside the function
+#print(local_var)   this will throw an error as we do not declare the local_var outside the function
 
