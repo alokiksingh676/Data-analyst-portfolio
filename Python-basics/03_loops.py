@@ -22,3 +22,15 @@ for num in range(1, 10):
         print("Breaking at", num)
         break
     print(num)
+    #using continue in loop
+for num in range(1, 6):
+    if num == 3:
+        continue  # skip 3
+    if num == 5:
+        break     # stop loop at 5
+    print(num)
+
+#Nested loops
+for i in range(3): 
+    for j in range(2): 
+        print(f"i={i}, j={j}")
